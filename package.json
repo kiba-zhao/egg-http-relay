@@ -1,0 +1,15 @@
+{
+  "name": "egg-http-relay",
+  "version": "0.1.0",
+  "description": "http relay plugin for eggjs",
+  "eggPlugin": {
+    "name": "httpRelay"
+  },
+  "devDependencies": {
+    "@types/is": "0.0.21",
+    "@types/node": "^12.12.9"
+  },
+  "dependencies": {
+    "is": "^3.3.0"
+  }
+}
