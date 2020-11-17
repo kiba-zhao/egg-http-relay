@@ -5,11 +5,25 @@
   "eggPlugin": {
     "name": "httpRelay"
   },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "scripts": {
+    "test": "egg-bin test"
+  },
   "devDependencies": {
-    "@types/is": "0.0.21",
-    "@types/node": "^12.12.9"
+    "@types/lodash": "^4.14.165",
+    "@types/node": "^12.12.9",
+    "@types/power-assert": "^1.5.3",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-mock": "^3.21.0",
+    "nock": "^13.0.5",
+    "power-assert": "^1.6.1"
   },
   "dependencies": {
-    "is": "^3.3.0"
+    "lodash": "^4.17.20"
   }
 }

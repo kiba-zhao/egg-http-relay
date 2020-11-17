@@ -21,6 +21,3 @@ typings/
 *#
 .tern-port
 *.#*
-
-# local_env_build
-local_env_build/data
